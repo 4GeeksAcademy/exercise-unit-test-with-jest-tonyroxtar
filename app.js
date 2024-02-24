@@ -34,7 +34,9 @@ console.log(sum(7,3))
 
 module.exports = {sum, fromEuroToDollar, fromDollarToYen, fromYenToPound};
 
-//encuentro este tipo de función más dinámica
+//encuentro este tipo de función más dinámica donde se toman los valores
+//directamente desde el objeto oneEuroIs
+
 //function fromEuroToDollar(amount) {
 //    let euroToDollarRate = oneEuroIs["USD"];
 //    return amount * euroToDollarRate;
